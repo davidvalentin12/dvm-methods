@@ -13,7 +13,7 @@ In case you don't want to install all the npm dependencies,
 you could just use your own localhost and only install the bower components.
 (or if you don't want to see the not-compressed code working you can go to localhost:{port}/indexProduccion)
 
-I've uploaded the app on this url: https://dvmdeveloper.000webhostapp.com
+I've uploaded the app on this url: https://dvmdeveloper.000webhostapp.com <br>
 And the code is also on my github: https://github.com/davidvalentin12/booking
 
 Project structure:
