@@ -17,6 +17,7 @@ I've uploaded the app on this url: https://dvmdeveloper.000webhostapp.com
 And the code is also on my github: https://github.com/davidvalentin12/booking
 
 Project structure:
+```
 .
 +-- /_data : contains data in json format for local development
 +-- /bower_components : bower components
@@ -45,7 +46,7 @@ Project structure:
 +-- indexProduccion: index for production (uses files from dist and dependencies)
 +-- LICENSE: license
 +-- package.json : package.json (node modules)
-
+```
 
 
 
