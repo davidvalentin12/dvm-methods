@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="panel panel-default ">
+        <div class="panel-body">
+            <h3 ng-bind="dvmBookingHotelCtrl.hotel.name"> </h3>
+            <div class="img-wrapper">
+                <img ng-src="src/images/{{dvmBookingHotelCtrl.hotel.imgUrl}}.jpg" class="img-responsive" alt="{{dvmBookingHotelCtrl.hotel.name}}">
+            </div>
+            <br>
+
+            <p ng-bind="dvmBookingHotelCtrl.hotel.big_description"></p>
+            <ul class="list-group">
+                <li class="list-group-item" >{{'STARS'|translate}}: {{dvmBookingHotelCtrl.hotel.stars}}</li>
+                <li class="list-group-item" >{{'COUNTRY'|translate}}: {{dvmBookingHotelCtrl.hotel.country}}</li>
+                <li class="list-group-item" >{{'CITY'|translate}}: {{dvmBookingHotelCtrl.hotel.city}}</li>
+                <li class="list-group-item" >{{'ADDRESS'|translate}}: {{dvmBookingHotelCtrl.hotel.address}}</li>
+            </ul>
+       </div>
+    </div>
+</div>

@@ -8,12 +8,12 @@
    ################################ -->
 
     <!-- bower:css -->
-    <!-- endinject -->
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 
+    <!-- endinject -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <!-- inject:css -->
-    <link rel="stylesheet" href="src/images/salesforce-lightning-design-system.css">
-    <link rel="stylesheet" href="src/images/salesforce-lightning-design-system.min.css">
+    <link rel="stylesheet" href="src/styles/dvmBooking.css">
+    <link rel="stylesheet" href="src/scripts/dvmBookingHotelList/sass/dvmBookingHotelList.css">
     <!-- endinject -->
 
     <!-- ##############################
@@ -33,16 +33,48 @@
 
 <script src="bower_components/angular/angular.js"></script>
 
+<script src="bower_components/jquery/dist/jquery.js"></script>
+
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
+<script src="bower_components/angular-translate/angular-translate.js"></script>
+
 <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
 <!-- endinject -->
 
 <!-- inject:js -->
+
+
 <script src="src/scripts/app.js"></script>
+
+
+<script src="src/scripts/shared/dvmBookingHotelService.js"></script>
+
+
+<script src="src/scripts/dvmBookingHotelList/dvmBookingHotelList.component.js"></script>
+
+
+<script src="src/scripts/dvmBookingHotel/dvmBookingHotel.component.js"></script>
+
+
+<script src="src/scripts/dvmBookingHome/dvmBookingHome.component.js"></script>
+
+
 <script src="src/scripts/dvmBookingHeader/dvmBookingHeader.component.js"></script>
+
+
+<script src="src/scripts/config/dvmBookingTranslate.config.js"></script>
+
+
+<script src="src/scripts/config/dvmBookingStateProvider.config.js"></script>
+
+
 <script src="src/scripts/dvmBooking/dvmBooking.component.js"></script>
+
+
 <!-- endinject -->
 
 <!-- #############################
@@ -54,11 +86,7 @@
             .controller('TestCtrl', function($scope) {
                 var self = this;
 
-                self.config ={
-                    taxonomy: '',
-                    term: '',
-                    kw: ''
-                }
+
 
 
             });

@@ -1,11 +1,12 @@
-(function() {
-  'use strict';
-  angular.module(
-      'dvmBooking',
+(function () {
+    'use strict';
+    angular.module(
+        'dvmBooking',
 
-      // DEPENDENCIES
-      [//'dvm.templates',
-
-
-      ]);
+        // DEPENDENCIES
+        [
+            //'dvm.templates',
+            'ui.router',
+            'pascalprecht.translate'
+        ]);
 }());

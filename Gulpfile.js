@@ -56,7 +56,7 @@
     INJECT_SRC_GLOB: './index.html',
     INJECT_DST_PATH: './',
 
-    SERVER_PORT: 9001,
+    SERVER_PORT: 8080,
     SERVER_LIVE_RELOAD: false,
     SERVER_LIVE_RELOAD_FILES: './src/**/*'
 
@@ -399,7 +399,7 @@
         }))
         .pipe(ngHtml2Js({
           moduleName: 'dvm.templates',
-          prefix: 'src'
+          prefix: 'src/'
         }))
         .pipe(concat(COMPONENT.name + '.templates.js'))
         .pipe(gulp.dest(CONFIG.DIST_PATH))
@@ -443,7 +443,7 @@
   function _generateSassGlob() {
     var tSassGlob;
 
-    tSassGlob = [CONFIG.SRC_STYLE_PATH + '**/*.scss', '!'+CONFIG.SRC_STYLE_PATH + '**/_styles/**/*.scss'];
+    tSassGlob = [CONFIG.SRC_STYLE_PATH + '**/*.scss', '!'+CONFIG.SRC_STYLE_PATH + '**_styles/*.scss'];
 
 
     if (CONFIG.SASS_GLOB) {

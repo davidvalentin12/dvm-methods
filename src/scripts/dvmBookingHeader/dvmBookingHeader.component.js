@@ -23,12 +23,36 @@
    * @description
    *
    */
-  function dvmBookingHeaderCtrl() {
+  function dvmBookingHeaderCtrl($translate, $scope, $stateParams, $state, $rootScope, $location) {
 
     var self = this;
 
+      self.changeLanguage = changeLanguage;
+
+      self.$onInit = $onInit;
+
+      function $onInit(){
+          changeLanguage($stateParams.lang);
+      }
 
 
+      function changeLanguage(langId){
+          $stateParams.lang = langId;
+          var otherLang = $stateParams.lang === 'es' ? 'en' : 'es';
+          $rootScope.otherLangURL = $location.absUrl().replace('/' + $stateParams.lang, '/' +otherLang);
+          $translate.use($stateParams.lang);
+          $state.reload();
+      }
+
+      $scope.$on('$stateChangeSuccess', rootStateChangeSuccess);
+
+      function rootStateChangeSuccess(){
+          if($stateParams.lang !== undefined){
+              var otherLang = $stateParams.lang === 'es' ? 'en' : 'es';
+              $rootScope.otherLangURL = $location.absUrl().replace('/' + $stateParams.lang, '/' +otherLang);
+              $translate.use($stateParams.lang);
+          }
+      }
 
 
 

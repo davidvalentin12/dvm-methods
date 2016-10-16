@@ -1,0 +1,18 @@
+<div class="container">
+    <h3>{{'HOTEL_LIST'|translate}}</h3>
+
+<div class="col-md-4 " ng-repeat="hotel in dvmBookingHotelListCtrl.hotels track by $index">
+    <div class="panel panel-default ">
+        <div class="panel-body">
+            <div class="img-wrapper">
+                <img ng-src="src/images/{{hotel.imgUrl}}.jpg" class="img-responsive" alt="{{hotel.name}}">
+                </div>
+            <h3 ng-bind="hotel.name"> </h3>
+            <p ng-bind="hotel.small_description"></p>
+            <button type="button" class=" pull-right btn btn-success" ui-sref="app.hotelList.hotel({hotelId: '{{hotel.id}}'})">{{'DETAILS'|translate}}</button>
+        </div>
+    </div>
+</div>
+
+
+</div>

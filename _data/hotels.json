@@ -1,0 +1,68 @@
+[
+  {
+    "id": "hotel-name-1",
+    "name": "Hotel name 1",
+    "stars": "1",
+    "country": "Spain",
+    "city": "Barcelona",
+    "address": "Example address 1",
+    "small_description": "Nulla pretium leo eu elit lacinia volutpat.",
+    "big_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget mauris lectus. Proin vitae mi elementum, iaculis dolor a, suscipit lectus. In rhoncus lacus in fermentum egestas. Morbi feugiat ante at dui condimentum ornare. Vivamus at magna ut sem rhoncus hendrerit at in ipsum. Phasellus eget consectetur lacus. Aliquam in risus ligula. Aliquam maximus felis imperdiet, ornare nisl nec, cursus orci. Curabitur quis malesuada dolor. Pellentesque sagittis eros ac erat egestas luctus. Suspendisse in auctor nisi, dictum porttitor orci. Sed sodales libero in nunc sagittis convallis. Proin ac augue sit amet orci vestibulum scelerisque vitae vitae velit.",
+    "imgUrl": "hotel1"
+  },
+  {
+    "id": "hotel-name-2",
+    "name": "Hotel name 2",
+    "stars": "2",
+    "country": "Spain",
+    "city": "Valencia",
+    "address": "Example address 2",
+    "small_description": "Quisque egestas eleifend luctus.",
+    "big_description": "Pellentesque orci enim, porta in orci faucibus, consequat vehicula magna. Mauris quis sollicitudin risus, in sagittis tellus. Duis nibh arcu, malesuada sed arcu non, vestibulum facilisis urna. Cras porttitor facilisis orci, vitae tristique mi. Aliquam condimentum tortor porttitor risus tempus, ut pharetra nibh molestie. Integer eu quam magna. Quisque nisl neque, dictum nec est nec, ultrices pretium orci. Nullam venenatis ultrices orci et convallis. Sed pharetra eros quis elit rutrum ultrices.",
+    "imgUrl": "hotel2"
+  },
+  {
+    "id": "hotel-name-3",
+    "name": "Hotel name 3",
+    "stars": "3",
+    "country": "Spain",
+    "city": "Madrid",
+    "address": "Example address 3",
+    "small_description": "Aliquam ac diam quis odio rutrum rutrum nec quis libero.",
+    "big_description": "Pellentesque orci enim, porta in orci faucibus, consequat vehicula magna. Mauris quis sollicitudin risus, in sagittis tellus. Duis nibh arcu, malesuada sed arcu non, vestibulum facilisis urna. Cras porttitor facilisis orci, vitae tristique mi. Aliquam condimentum tortor porttitor risus tempus, ut pharetra nibh molestie. Integer eu quam magna. Quisque nisl neque, dictum nec est nec, ultrices pretium orci. Nullam venenatis ultrices orci et convallis. Sed pharetra eros quis elit rutrum ultrices.",
+    "imgUrl": "hotel3"
+  },
+  {
+    "id": "hotel-name-4",
+    "name": "Hotel name 4",
+    "stars": "4",
+    "country": "Spain",
+    "city": "Palma de Mallorca",
+    "address": "Example address 4",
+    "small_description": "Duis hendrerit sit amet enim volutpat laoreet.",
+    "big_description": "Sed ultrices tristique erat et aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam est tellus, sollicitudin non massa sed, molestie ultrices odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer in pretium mi. Nam tincidunt dapibus posuere. Duis hendrerit sit amet enim volutpat laoreet. Praesent sem eros, efficitur vel pulvinar ut, venenatis molestie odio.",
+    "imgUrl": "hotel4"
+  },
+  {
+    "id": "hotel-name-5",
+    "name": "Hotel name 5",
+    "stars": "5",
+    "country": "Spain",
+    "city": "Sevilla",
+    "address": "Example address 5",
+    "small_description": " Mauris lobortis lobortis ex a blandit. ",
+    "big_description": "Nulla pretium leo eu elit lacinia volutpat. Quisque egestas eleifend luctus. Quisque vehicula odio sit amet est suscipit, sit amet posuere quam hendrerit. Aliquam ac diam quis odio rutrum rutrum nec quis libero. Cras pretium dapibus felis eget dapibus. Nam imperdiet, sem sit amet tempus tempus, ex lorem hendrerit justo, vitae condimentum lectus purus sit amet sem. Quisque enim est, ornare quis venenatis a, cursus ac ligula. Aliquam eu leo ex. Praesent aliquam efficitur tortor non venenatis. Nunc quis mi mollis risus pharetra commodo sed ut leo.",
+    "imgUrl": "hotel5"
+  },
+  {
+    "id": "hotel-name-6",
+    "name": "Hotel name 6",
+    "stars": "6",
+    "country": "Spain",
+    "city": "Alicante",
+    "address": "Example address 6",
+    "small_description": "Etiam commodo nisl vel ex dapibus varius.",
+    "big_description": "Phasellus faucibus quam quis sem gravida efficitur et eget dolor. Vestibulum bibendum pellentesque lacus, id vehicula nulla posuere sed. Proin congue aliquam velit, id egestas massa hendrerit vitae. Cras sit amet pulvinar enim. Sed nec gravida magna. Curabitur in justo et dui sodales sagittis eget at arcu. Mauris lobortis lobortis ex a blandit. Aliquam euismod efficitur augue tempus dignissim. Pellentesque placerat magna nec congue sagittis. Curabitur magna nisi, facilisis a dignissim nec, pretium eu metus. Praesent congue vitae orci at iaculis. Donec gravida, felis in volutpat malesuada, nisi orci aliquam tortor, nec rhoncus justo lorem quis diam. Etiam commodo nisl vel ex dapibus varius. Vestibulum tincidunt eleifend dignissim. Aliquam eu mi lobortis, scelerisque nisl in, commodo velit. Sed nec feugiat risus, non imperdiet nunc.",
+    "imgUrl": "hotel6"
+  }
+]
