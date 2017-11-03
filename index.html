@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="dvmBooking">
+<html ng-app="dvmMethods">
 <head>
     <title>Booking</title>
 
@@ -12,8 +12,9 @@
     <!-- endinject -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <!-- inject:css -->
-    <link rel="stylesheet" href="src/styles/dvmBooking.css">
-    <link rel="stylesheet" href="src/scripts/dvmBookingHotelList/sass/dvmBookingHotelList.css">
+    <link rel="stylesheet" href="src/styles/dvmMethods.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/scripts/sliderDirective/sliderDirective.css">
     <!-- endinject -->
 
     <!-- ##############################
@@ -21,9 +22,9 @@
          ############################## -->
 
 </head>
-<body ng-controller="TestCtrl as test" >
+<body ng-controller="initCtrl as init" style="width:700px;">
 <!-- Example Usage -->
-<dvm-booking></dvm-booking>
+<dvm-methods methods="init.methods"></dvm-methods>
 
 <!-- ###############################
      ### [BEGIN] JS DEPENDENCIES ###
@@ -35,9 +36,7 @@
 
 <script src="bower_components/jquery/dist/jquery.js"></script>
 
-<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-
-<script src="bower_components/angular-translate/angular-translate.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 
 <script src="bower_components/angular-mocks/angular-mocks.js"></script>
 
@@ -45,34 +44,23 @@
 
 <!-- endinject -->
 
+<script src="bower_components/jquery/dist/jquery.js"></script>
 <!-- inject:js -->
+
+
+<script src="src/scripts/sliderDirective/sliderDirective.js"></script>
 
 
 <script src="src/scripts/app.js"></script>
 
 
-<script src="src/scripts/shared/dvmBookingHotelService.js"></script>
+<script src="src/scripts/shared/dvmFilters.js"></script>
 
 
-<script src="src/scripts/dvmBookingHotelList/dvmBookingHotelList.component.js"></script>
+<script src="src/scripts/multiSelectDirective/multiSelectDirective.js"></script>
 
 
-<script src="src/scripts/dvmBookingHotel/dvmBookingHotel.component.js"></script>
-
-
-<script src="src/scripts/dvmBookingHome/dvmBookingHome.component.js"></script>
-
-
-<script src="src/scripts/dvmBookingHeader/dvmBookingHeader.component.js"></script>
-
-
-<script src="src/scripts/config/dvmBookingTranslate.config.js"></script>
-
-
-<script src="src/scripts/config/dvmBookingStateProvider.config.js"></script>
-
-
-<script src="src/scripts/dvmBooking/dvmBooking.component.js"></script>
+<script src="src/scripts/dvmMethods/dvmMethods.component.js"></script>
 
 
 <!-- endinject -->
@@ -82,10 +70,43 @@
      ############################# -->
 
 <script type="text/javascript">
-    angular.module('dvmBooking')
-            .controller('TestCtrl', function($scope) {
-                var self = this;
+    angular.module('dvmMethods')
+            .controller('initCtrl', function($scope) {
+                var init = this;
 
+                /** #########################
+                 *  ###       HELPER      ###
+                 *  #########################
+                 *  TIME:
+                 *  1: Menos de 1 hora
+                 *  2: De 1 a 3 horas
+                 *  3: De 3 a 10 horas
+                 *  4: De 10 a 24 horas
+                 *  5: Mas de 24 horas
+                 *
+                 *  TRAFIC:
+                 *  1: Poco
+                 *  2: Algo
+                 *  3: Bastante
+                 *  4: Mucho
+                 *  5: Nivel facebook
+                 *
+                 *
+                 *  */
+
+                init.methods = [{
+                  name: 'Method 1',
+                  categories:{
+                    time:1,
+                    money:3,
+                    trafic:2,
+                    channels:[2,4,6],
+                    bussinesSize: 3
+                  },
+                  contenido:'<html>contenido del metodo</html>'
+                },{
+
+                }]
 
 
 

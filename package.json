@@ -1,5 +1,5 @@
 {
-  "name": "dvmBooking",
+  "name": "dvmMethods",
   "version": "0.0.1",
   "scripts": {
     "preinstall": "npm install --global --unsafe-perm bower gulp"

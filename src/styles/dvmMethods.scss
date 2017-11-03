@@ -1,0 +1,43 @@
+dvm-methods{
+  padding: 5px 10px;
+  display:block;
+
+  .filters {
+    .slide-filters{
+      .slide-filter{
+        margin-bottom:5px;
+      }
+    }
+    .select-filters {
+      .select-filter{
+        width:45%;
+        display:inline-block;
+        margin-bottom:5px;
+      }
+    }
+  }
+
+  .method {
+    h3 {
+      font-size: 30px;
+      padding-bottom: 7px;
+      padding-top: 7px;
+      padding-right: 0px;
+      padding-left: 12px;
+      background-color: #d20404;
+      color: #ffffff;
+    }
+    .red-label {
+      color: #d20404;
+    }
+    .green-label {
+      color: #008000;
+    }
+    .orange-label{
+      color: #ff6600;
+    }
+    .method-content {
+      margin-top: 10px;
+    }
+  }
+}

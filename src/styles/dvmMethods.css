@@ -1,0 +1,25 @@
+dvm-methods {
+  padding: 5px 10px;
+  display: block; }
+  dvm-methods .filters .slide-filters .slide-filter {
+    margin-bottom: 5px; }
+  dvm-methods .filters .select-filters .select-filter {
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 5px; }
+  dvm-methods .method h3 {
+    font-size: 30px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-right: 0px;
+    padding-left: 12px;
+    background-color: #d20404;
+    color: #ffffff; }
+  dvm-methods .method .red-label {
+    color: #d20404; }
+  dvm-methods .method .green-label {
+    color: #008000; }
+  dvm-methods .method .orange-label {
+    color: #ff6600; }
+  dvm-methods .method .method-content {
+    margin-top: 10px; }

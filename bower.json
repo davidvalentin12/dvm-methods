@@ -1,21 +1,18 @@
 {
-  "name": "dvmBooking",
+  "name": "methodList",
   "license": "MIT",
   "version": "0.0.1",
-  "description": "Web code challenge : booking",
+  "description": "methodList",
   "main": [
-    "./dist/dvmBooking.js",
-    "./dist/dvmBooking.templates.js",
-    "./dist/css/styles.css",
-    "./dist/images/hotel1.jpg",
-    "./dist/images/hotel2.jpg",
-    "./dist/images/hotel3.jpg"
+    "./dist/methodList.js",
+    "./dist/methodList.templates.js",
+    "./dist/css/styles.css"
   ],
   "authors": [
     "David Möhring <davidvalentinsemail@gmail.com>"
   ],
   "keywords": [
-    "booking"
+    "method"
   ],
   "ignore": [
     "lang",
@@ -31,10 +28,8 @@
   ],
   "dependencies": {
     "angular": "~1.5",
-    "font-awesome": "~4.5.0",
     "bootstrap": "~3.3.7",
-    "angular-ui-router": "~0.3.1",
-    "angular-translate": "~2.12.1"
+    "angular-sanitize": "bower-angular-sanitize#^1.6.6"
   },
   "devDependencies": {
     "angular-mocks": "~1.5"

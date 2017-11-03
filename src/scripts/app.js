@@ -1,12 +1,13 @@
 (function () {
     'use strict';
     angular.module(
-        'dvmBooking',
+        'dvmMethods',
 
         // DEPENDENCIES
         [
-            //'dvm.templates',
-            'ui.router',
-            'pascalprecht.translate'
+             'dvm.templates',
+          'angularjs-dropdown-multiselect',
+          'rzModule',
+          'ngSanitize'
         ]);
 }());
