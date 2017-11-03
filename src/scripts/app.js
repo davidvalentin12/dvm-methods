@@ -5,7 +5,7 @@
 
         // DEPENDENCIES
         [
-             'dvm.templates',
+             //'dvm.templates',
           'angularjs-dropdown-multiselect',
           'rzModule',
           'ngSanitize'

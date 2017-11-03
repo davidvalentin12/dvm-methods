@@ -131,10 +131,8 @@
 
     function filterByBussines(value) {
       var valid = true;
-       console.log(dmc.bussinesSizeFilterOptions.value[0]);
       if (dmc.bussinesSizeFilterOptions.value.length > 0) {
         var anyEqual = false;
-        console.log(value.categories.bussinesSize , dmc.bussinesSizeFilterOptions.value[0].value);
         if (value.categories.bussinesSize === dmc.bussinesSizeFilterOptions.value[0].value) {
           anyEqual = true;
         }
